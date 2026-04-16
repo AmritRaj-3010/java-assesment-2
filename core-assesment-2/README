@@ -1,0 +1,151 @@
+# 🎓 SmartCampus Management System
+
+## 📌 Project Title
+
+SmartCampus Management System (Java)
+
+---
+
+## 📖 Problem Statement
+
+This project is developed as part of the **Final Assessment for BTech 2nd Year (GNC College)**.
+The goal is to design a Java-based system that manages students, courses, and enrollments efficiently while implementing core programming concepts.
+
+---
+
+## 🚀 Features
+
+### ✅ Student Management
+
+* Add new students
+* Store student details (ID, Name, Email)
+
+### ✅ Course Management
+
+* Add courses
+* Store course details (ID, Name, Fee)
+
+### ✅ Enrollment System
+
+* Enroll students into multiple courses
+* View all enrollments
+
+### ✅ Exception Handling
+
+* Custom exception for invalid fee
+* Handles invalid user inputs
+
+### ✅ Multithreading
+
+* Simulates enrollment processing using threads
+
+### ✅ Menu Driven Program
+
+* Easy interaction via console menu
+
+---
+
+## 🛠️ Technologies Used
+
+* Java
+* OOP (Object-Oriented Programming)
+* Collections (HashMap, ArrayList)
+* Exception Handling
+* Multithreading
+
+---
+
+## 📂 Project Structure
+
+```
+SmartCampus/
+│── Student.java
+│── Course.java
+│── InvalidFeeException.java
+│── EnrollmentSystem.java
+│── EnrollmentThread.java
+│── MainSystem.java
+```
+
+---
+
+## ▶️ How to Run
+
+1. Open project in any IDE (Eclipse / IntelliJ / VS Code)
+2. Compile all Java files:
+
+   ```
+   javac MainSystem.java
+   ```
+3. Run the program:
+
+   ```
+   java MainSystem
+   ```
+
+---
+
+## 💻 Sample Output
+
+```
+1. Add Student
+2. Add Course
+3. Enroll Student
+4. View Students
+5. View Enrollments
+6. Process Enrollment
+7. Exit
+```
+
+---
+
+## 🌟 Unique Feature (Added for Anti-Plagiarism)
+
+* Custom Exception (`InvalidFeeException`)
+* Multithreading for enrollment processing
+* Clean modular structure
+
+---
+
+## 📸 Screenshots
+
+(Add your output screenshots here before submission)
+
+---
+
+## 📊 Evaluation Criteria Covered
+
+| Criteria           | Status |
+| ------------------ | ------ |
+| Code Structure     | ✅      |
+| OOP Concepts       | ✅      |
+| Collections        | ✅      |
+| Exception Handling | ✅      |
+| Multithreading     | ✅      |
+| Functionality      | ✅      |
+| GitHub Submission  | ✅      |
+
+---
+
+## 👨‍💻 Author
+
+Amrit Raj
+BTech 2nd Year – GNC College
+
+---
+
+## 📌 GitHub Repository Name And Link
+
+```
+java-assesment-2
+
+https://github.com/AmritRaj-3010/java-assesment-2
+```
+
+---
+
+## ✅ Conclusion
+
+This project demonstrates the practical implementation of Java concepts such as OOP, collections, exception handling, and multithreading to build a real-world campus management system.
+
+---

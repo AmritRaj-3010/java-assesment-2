@@ -1,0 +1,64 @@
+
+## ✅ **MCQ 1: Collections Design**
+
+**Question:**
+A developer is implementing student enrollments where each student can enroll in multiple courses. The system should allow quick lookup of a student and their enrolled courses.
+Which is the most optimal data structure?
+
+**Options:**
+A. ArrayList<Course> for all students
+B. HashMap<Student, ArrayList<Course>>
+C. HashSet<Course> for each student
+D. LinkedList<Student> with Course objects
+
+**Correct Answer:** ✅ **B. HashMap<Student, ArrayList<Course>>**
+
+---
+
+## ✅ **MCQ 2: Exception Handling Scenario**
+
+**Question:**
+During enrollment, a student enters a negative course fee, causing incorrect processing. The developer wants to ensure invalid data is handled properly.
+What is the best approach?
+
+**Options:**
+A. Ignore invalid input
+B. Use try-catch only
+C. Throw a custom exception like InvalidFeeException
+D. Use if-else without exception
+
+**Correct Answer:** ✅ **C. Throw a custom exception like InvalidFeeException**
+
+---
+
+## ✅ **MCQ 3: Multithreading Use Case**
+
+**Question:**
+The system simulates enrollment processing using a thread. However, multiple threads are accessing the same enrollment list, causing inconsistent results.
+What should be done?
+
+**Options:**
+A. Remove multithreading
+B. Use synchronized block or thread-safe collection
+C. Use only ArrayList
+D. Increase thread priority
+
+**Correct Answer:** ✅ **B. Use synchronized block or thread-safe collection**
+
+---
+
+## ✅ **MCQ 4: OOP Design Decision**
+
+**Question:**
+A developer wants to enforce a rule that every type of course must implement a method `calculateFee()` but allow different implementations.
+Which concept should be used?
+
+**Options:**
+A. Abstract Class
+B. Interface
+C. Inheritance only
+D. Static class
+
+**Correct Answer:** ✅ **B. Interface**
+
+
